@@ -1,0 +1,166 @@
+@import url(m_reset.css);
+html,
+body,
+.s_warp {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.s_header {
+  width: 100%;
+  height: 40px;
+  background: #1b1c20;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.s_header ul {
+  width: 60px;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 40px;
+  text-align: center;
+}
+.s_header ul li {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  color: white;
+}
+.s_header ul li img {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 4px;
+}
+.s_header h1 {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+  font-size: 16px;
+}
+.s_header .header_right {
+  width: 60px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
+.s_section {
+  background: #fafafa;
+  -webkit-box-flex: 1;
+}
+.s_section .s_section_you {
+  width: 100%;
+  height: 164px;
+  position: relative;
+  background: url(../img/s_y_1.png) no-repeat;
+  background-size: 100% 164px;
+}
+.s_section .s_section_you h3 {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  font-weight: bold;
+}
+.s_section .s_section_you h3 a {
+  color: black;
+}
+.s_section .s_section_you ul {
+  position: absolute;
+  top: 24px;
+  width: 140px;
+  height: 62px;
+  padding-left: 106px;
+}
+.s_section .s_section_you ul li {
+  font-size: 14px;
+  color: white;
+  line-height: 26px;
+}
+.s_section_jiang {
+  width: 100%;
+  height: 126px;
+  background: white;
+  margin-top: 8px;
+}
+.s_section_jiang h1 {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 14px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+.s_section_jiang #dll {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.s_section_jiang #dll dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 8px;
+}
+.s_section_jiang #dll dl dd {
+  margin-top: 6px;
+  width: 32px;
+  height: 16px;
+  line-height: 16px;
+  background: #e5e5e5;
+  border-radius: 5px;
+  margin-left: 18px;
+}
+.s_section_jiang #dll dl dd a {
+  color: white;
+}
+.s_section_jiang #dll dl dd:hover {
+  background: #ff6200;
+}
+.s_section_jian {
+  width: 100%;
+  height: 126px;
+  background: white;
+  margin-top: 8px;
+}
+.s_section_jian h1 {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 14px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+.s_section_jian #dll {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.s_section_jian #dll dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 8px;
+}
+.s_section_jian #dll dl dd {
+  margin-top: 6px;
+  line-height: 16px;
+}
+.s_footer {
+  width: 100%;
+  height: 46px;
+  background: white;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 2px solid #f6f6f6;
+  position: relative;
+}
+.s_footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.s_footer dl dt {
+  padding-top: 4px;
+}
+.s_footer dl dd {
+  color: #969696;
+}
